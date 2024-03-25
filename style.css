@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: min(90ch, 100vw - 4rem);
+	margin-inline: auto;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+}
+
+.navbar > ul{
+	display: flex;
+	list-style: none;
+	gap: 1rem;
+}
+
+.navbar img{
+	height: 3rem;
+}
+
+.hero{
+	display: grid;
+
+	width: 100%;
+}
+
+.hero > img{
+	width: 100%;
+}
+
+.hero > * {
+	grid-area: stack;
+}
+
+footer{
+	margin-top: 6rem;
+}
