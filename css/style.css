@@ -1,8 +1,8 @@
-body{
+body {
 	margin: 0;
 }
 
-img{
+img {
 	max-width: 100%;
 	height: auto;
 }
@@ -12,37 +12,37 @@ img{
 	margin-inline: auto;
 }
 
-.navbar{
+.navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 0;
 }
 
-.navbar > ul{
+.navbar>ul {
 	display: flex;
 	list-style: none;
 	gap: 1rem;
 }
 
-.navbar img{
+.navbar img {
 	height: 3rem;
 }
 
-.hero{
+.hero {
 	display: grid;
 
 	width: 100%;
 }
 
-.hero > img{
+.hero>img {
 	width: 100%;
 }
 
-.hero > * {
+.hero>* {
 	grid-area: stack;
 }
 
-footer{
+footer {
 	margin-top: 6rem;
 }
